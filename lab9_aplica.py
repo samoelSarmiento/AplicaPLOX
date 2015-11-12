@@ -180,12 +180,11 @@ compresionLista = [w for w in vectorPalComparacion if not w in cachedStopWords]
 compresionLista = [w for w in compresionLista if not w == ""]
 #formamos el query del (0,0,0,0,0,0,1,0,0)
 #diccPalabra
-query = [0]*len(compresionLista)
+query = [0]*len(diccPalabra)
 for i in range(0,len(compresionLista)):
-	if diccPalabra.count(compresionLista[i]) == 0:
-		query[i] = 0
-	else:
-		query[i] = 1
+	if diccPalabra.count(compresionLista[i]) != 0:
+		indice = diccPalabra.index(compresionLista[i]
+		query[indice] = 1
 print query
 
 

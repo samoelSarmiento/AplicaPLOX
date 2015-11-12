@@ -1,0 +1,28 @@
+Juan Perez
+Dirección: Av. La mar 123 San Miguel.
+Telefono: 987654321
+Profesional que investiga constantemente sobre las tendencias y mejores prácticas en programación.
+
+Estudios:
+Bachiller en  Ingeniería  Informática . PUCP
+
+Experiencia:
+Practicante Web- Grupo Gloria junio-2014 a noviembre 2014
+ Documentación los desarrollos realizados en el área de desarrollo web.
+
+Practicante Analisis  BBVA:enero 2015 a mayo 2015
+Funciones: Realizar el análisis inicial con los usuarios de las aplicaciones a desarrollar dentro de diferentes áreas del Banco, además de realizar la documentación.
+
+Desarrollador web.Grupo El comercio junio 2015 al marzo -2016
+Funciones: Extender funcionalidades de las plataformas virtuales además de realizar pruebas y testeo de los desarrollos.
+
+
+Conocimientos
+★ sistemas de gestión de contenidos :Drupal y Moodle.
+★ Desarrollo frontend: Javascript, Jquery
+★ Desarrollo Web : PHP (Laravel)
+★ Microsoft Office (Word, Excel, Power Point, etc.) a nivel avanzado.
+
+
+Idiomas:
+Inglés a nivel Intermedio.
