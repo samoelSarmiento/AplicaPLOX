@@ -156,8 +156,7 @@ for i in range(0,len(listInvPalabras)):
 #Al momento de cargar el CV de consulta, imprimir (en consola o GUI) el vector que se usará
 vectorPalComparacion = [];
 """Para el filtrado de las palabras apra formar el nuevo vector que se usará"""
-arch = open('sist_informacion.txt', 'r')
-estaLeyendo = True
+arch = open('software.txt', 'r')
 #lista = arch.readlines()
 lista = arch.readlines()
 
@@ -249,6 +248,7 @@ for i in range(0,len(vector_tf_idf)):
 	vector_documento = vector_tf_idf[i]
 	cosine = ppunto(vector_documento,vector_query)/(modulo(vector_documento)*normaQuery)
 	resultados.append(cosine)
+"""
 l1 = resultados
 l2 = []
 l2.extend(range(0,len(resultados)))
@@ -260,4 +260,13 @@ top20 = ranking[:20]
 top20ind = indicesRank[:20]
 rank = zip(top20ind,top20)
 print rank
+"""
+ordenado = sorted(range(len(resultados)),key =lambda k : resultados[k],reverse = True)
+for i in range(0,len(ordenado)):
+	ordenado[i] += 1
+ranking = ordenado[:20]
+arch_ranking = open("Ranking","w")
+for val in ranking:
+	arch_ranking.write(str(val)+'\n')
+arch_ranking.close()
 
