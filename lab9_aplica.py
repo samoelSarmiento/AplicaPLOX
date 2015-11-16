@@ -100,7 +100,7 @@ for row in csv_entrada:
 	#Aqui procesamos la lista invertida
 	LlenaListaInvertida(row[3].split()+row[4].split()+row[5].split(),numeroDocumentos+1)
 	numeroDocumentos += 1
-	documentoFiltrado.append((row[3]+row[4]+row[5]).split())
+	documentoFiltrado.append((row[3]+" "+row[4]+" "+row[5]).split())
 	csv_salida.writerow(row)
 
 #listInvPalabras
@@ -156,7 +156,7 @@ for i in range(0,len(listInvPalabras)):
 #Al momento de cargar el CV de consulta, imprimir (en consola o GUI) el vector que se usará
 vectorPalComparacion = [];
 """Para el filtrado de las palabras apra formar el nuevo vector que se usará"""
-arch = open('cv_test.txt', 'r')
+arch = open('sist_informacion.txt', 'r')
 estaLeyendo = True
 #lista = arch.readlines()
 lista = arch.readlines()
@@ -199,6 +199,9 @@ for i in range(0,len(documentoFiltrado)):
 			indice = diccPalabra.index(palabra)
 			nodoDocumento[indice] = repeticionesPalabra[indice]
 	listaDocumentoPesos.append(nodoDocumento)
+
+
+
 """
 salidaDocVectores = open("DocListaPesos.csv","wt")
 csv_salida = csv.writer(salidaDocVectores,lineterminator='\n')
@@ -210,15 +213,19 @@ for i in range(0,len(listaDocumentoPesos)):
 #diccPalabra
 #formamos el vector tf_idf
 vector_tf_idf = []
+tij = 0.0
 for i in range(0,len(listaDocumentoPesos)):
 	nodoVector = []
 	maxVal = max(listaDocumentoPesos[i])
 	pesosDoc = listaDocumentoPesos[i]
 	for j in range(0,len(pesosDoc)):
-		tij = pesosDoc[j]/maxVal
+		tij = (1.0)*pesosDoc[j]/maxVal
 		df = palabra_df[j]
-		nodoVector.append(tij*df)
+		nodoVector.append(1.0*tij*df)
 	vector_tf_idf.append(nodoVector)
+
+
+
 """
 salidaDocVectores = open("DocListaVectorTF_IDF.csv","wt")
 csv_salida = csv.writer(salidaDocVectores,lineterminator='\n')
@@ -241,6 +248,15 @@ for i in range(0,len(vector_tf_idf)):
 	vector_documento = vector_tf_idf[i]
 	cosine = ppunto(vector_documento,vector_query)/(modulo(vector_documento)*normaQuery)
 	resultados.append(cosine)
-ranking = sorted(range(len(resultados)),key=lambda k : s[k])
+l1 = resultados
+l2 = []
+l2.extend(range(0,len(resultados)))
+yx = zip(l1,l2)
+yx.sort(reverse=True)
+ranking = [x for x, y in yx]
+indicesRank = [y for x, y in yx]
 top20 = ranking[:20]
-print top20
+top20ind = indicesRank[:20]
+rank = zip(top20ind,top20)
+print rank
+
