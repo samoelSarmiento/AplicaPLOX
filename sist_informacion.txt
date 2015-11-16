@@ -1,0 +1,15 @@
+Pedro Aguilar
+Dirección: Av. Universitaria 123
+Telefono: 123456899
+
+Educacion:
+Bachiller en Ingenieria Informatica - PUCP
+
+Experiencia profesional:
+Practicante IBM - Analisis de Sistemas (Enero 2015 - actualidad)
+Apoyo en la recopilación de requerimientos para el análisis y desarrollo posterior de sistemas para clientes.
+Apoyo en el análisis de funciones y procesos para la implementación de SAP en clientes
+
+Conocimientos:
+- Uso de herramientas de modelamiento de datos y estándares (UML)
+- Uso de ERP SAP, módulos de RRHH y Ventas.

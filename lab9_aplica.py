@@ -244,6 +244,7 @@ for i in range(0,len(query)):
 normaQuery = modulo(vector_query)
 resultados = []
 
+#Para el primer documneto en adelante
 for i in range(0,len(vector_tf_idf)):
 	vector_documento = vector_tf_idf[i]
 	cosine = ppunto(vector_documento,vector_query)/(modulo(vector_documento)*normaQuery)

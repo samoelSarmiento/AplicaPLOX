@@ -1,0 +1,29 @@
+Luis Aguilar
+Dirección: Calle Las Flores, 134. San Isidro
+Telefono: 987568423
+Profesional que desarrolla proyectos de investigación con financiamiento del gobierno.
+
+Estudios:
+Magister en Ciencias de la Computación - UCSP.
+Bachiller en  Ingeniería  Informática . PUCP
+
+
+Experiencia:
+Practicante - IBM -  marzo-2012 a diciembre 2012
+Funciones: Desarrollar un método para obtener el número de una factura, en imágenes digitalizadas.
+
+Desarrollador Junior - El Comercio :enero 2014 a agosto 2014
+Funciones: Implementar un algoritmo de búsqueda de inmuebles para la web urbania.pe
+
+
+Conocimientos
+-Lenguajes de programación : Java, Python, C++
+-Desarrollo frontend: Javascript, Jquery
+-Desarrollo Web : PHP
+-Científico : Matlab, R, Octave 
+-Editor de Texto: LaTEX
+
+
+Idiomas:
+Inglés a nivel Intermedio.
+Francés a nivel Básico.

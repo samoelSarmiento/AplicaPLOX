@@ -1,0 +1,19 @@
+Marco Zegarra
+Dirección: PUCP 1234
+Telefono: 123456789
+
+Formación Academica:
+Ingeniero de Software - UNMSM
+
+Experiencia Laboral:
+Practicante Web Avantica:
+Desarrollo de aplicativos web, principalmente las tareas de fronted 
+
+Freelancer: Desarrollo de soluciones móviles para empresas del rubro de entretenimiento y retail, para la gestión de contenido y venta por aplicaciones móviles (Cineplanet, Ripley, entre otros).
+Ver en el siguiente enlace las recomendaciones de las empresas a las cuales he brindado mi servicio: blogpersonaldemarco.blogspot.com
+
+Conocimientos:
+- Desarrollo frontend: HTML, CSS, Javascript
+- Desarrollo con uso de REST y JSON
+- Desarrollo Web: .NET, PHP
+- Desarrollo móvil para Android y iOS

@@ -1,0 +1,30 @@
+
+Nomre y apellido: Miguel Reyes Benitez
+Direccion: Av Armendariz 234
+
+Persona con alta capacida de análisis y diseño de soluciones de servidores (Levantamiento y desarrollo del requerimiento).
+
+Estudios 
+Técnico en computación
+
+Experiencia:
+Practicante de soporte técnico (Banco de crédito):
+
+Administrador de servidores (Grupo Aje) (Febrero 2011 - Marzo 2014):
+Adminsitre los servidores del ERP que soporta los procesos de negocios de la empresa 
+
+
+Habilidades:
+-Administración de servidores web (Apache o IIS)
+-Configuración avanzada de sitios en IIS
+-Capacidad de entrevistar y entender las necesidades de los clientes, para el levantamiento de requerimientos.
+-Capacidad de analizar las necesidades, diseñar, desarrollar, implementar soluciones.
+-Experiencia en actividades de coordinación, implementación de sistemas informáticos, de desarrollo y/o mantenimiento de sistemas.
+
+Conocimientos
+-Linux
+-Windows server
+-Shell
+
+Certificados
+Windows Server 2013 Profesional Administrator
